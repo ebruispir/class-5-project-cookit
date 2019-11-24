@@ -20,6 +20,7 @@ module.exports = {
   plugins: [
     'react',
     'jest',
+      '@babel/plugin-transform-classes'
   ],
   rules: {
     "semi": 0,
