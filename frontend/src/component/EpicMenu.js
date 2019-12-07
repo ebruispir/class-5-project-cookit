@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './EpicMenu.css';
+import '../EpicMenu.css';
 import firebase from 'firebase';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
-import searchIcon from './search-icon.png';
+import searchIcon from '../search-icon.png';
 
 firebase.initializeApp({
   apiKey: 'AIzaSyDKKpTxO6tDfpZ-twIm9UeKn1jA1u5WyWQ',
@@ -57,15 +57,15 @@ class EpicMenu extends Component {
         <input className="menu__search-input" placeholder="Type and hit enter" />
       </form>
     ) : (
-      ''
-    );
+        ''
+      );
     const loginForm = this.state.showMenu ? (
       <form className="login-form" method="POST">
         <StyledFirebaseAuth uiConfig={this.uiConfig} firebaseAuth={firebase.auth()} />
       </form>
     ) : (
-      ''
-    );
+        ''
+      );
 
     const linksMarkup = this.props.links.map((link, index) => {
       const linkMarkup = link.active ? (
@@ -73,10 +73,10 @@ class EpicMenu extends Component {
           {link.label}
         </a>
       ) : (
-        <a className="menu__link" href={link.link}>
-          {link.label}
-        </a>
-      );
+          <a className="menu__link" href={link.link}>
+            {link.label}
+          </a>
+        );
 
       return (
         <li key={index} className="menu__list-item">
