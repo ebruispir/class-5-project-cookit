@@ -1,0 +1,42 @@
+[debug] [2019-12-01T21:20:05.585Z] ----------------------------------------------------------------------
+[debug] [2019-12-01T21:20:05.587Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ebru\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-12-01T21:20:05.588Z] CLI Version:   7.8.1
+[debug] [2019-12-01T21:20:05.588Z] Platform:      win32
+[debug] [2019-12-01T21:20:05.588Z] Node Version:  v10.16.3
+[debug] [2019-12-01T21:20:05.589Z] Time:          Sun Dec 01 2019 22:20:05 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-01T21:20:05.589Z] ----------------------------------------------------------------------
+[debug] [2019-12-01T21:20:05.589Z] 
+[debug] [2019-12-01T21:20:05.604Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-01T21:20:05.604Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ebru\Desktop\ebru\class-5-project-cookit
+
+[debug] [2019-12-01T21:22:23.824Z] ----------------------------------------------------------------------
+[debug] [2019-12-01T21:22:23.826Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ebru\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-12-01T21:22:23.826Z] CLI Version:   7.8.1
+[debug] [2019-12-01T21:22:23.826Z] Platform:      win32
+[debug] [2019-12-01T21:22:23.826Z] Node Version:  v10.16.3
+[debug] [2019-12-01T21:22:23.827Z] Time:          Sun Dec 01 2019 22:22:23 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-01T21:22:23.827Z] ----------------------------------------------------------------------
+[debug] [2019-12-01T21:22:23.827Z] 
+[debug] [2019-12-01T21:22:23.832Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-01T21:22:23.833Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ebru\Desktop\ebru\class-5-project-cookit
+

@@ -57,15 +57,15 @@ class EpicMenu extends Component {
         <input className="menu__search-input" placeholder="Type and hit enter" />
       </form>
     ) : (
-      ''
-    );
+        ''
+      );
     const loginForm = this.state.showMenu ? (
       <form className="login-form" method="POST">
         <StyledFirebaseAuth uiConfig={this.uiConfig} firebaseAuth={firebase.auth()} />
       </form>
     ) : (
-      ''
-    );
+        ''
+      );
 
     const linksMarkup = this.props.links.map((link, index) => {
       const linkMarkup = link.active ? (
@@ -73,10 +73,10 @@ class EpicMenu extends Component {
           {link.label}
         </a>
       ) : (
-        <a className="menu__link" href={link.link}>
-          {link.label}
-        </a>
-      );
+          <a className="menu__link" href={link.link}>
+            {link.label}
+          </a>
+        );
 
       return (
         <li key={index} className="menu__list-item">
