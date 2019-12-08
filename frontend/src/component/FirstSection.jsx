@@ -14,6 +14,7 @@ const FirstSection = () => {
           backgroundSize: 'cover',
           height: '75vh',
           position: 'relative',
+          maxWidth:"none"
         }}
       >
         <div style={{ position: 'absolute', right: 90, bottom: 80 }}>
