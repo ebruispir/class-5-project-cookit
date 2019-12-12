@@ -3,9 +3,8 @@ import EpicMenu from './EpicMenu';
 import FirstSection from './FirstSection';
 import '../App.css'
 import logo from '../cookit.png';
-import SearchPart from './SearchPart';
-import ThirdSection from './Recipes';
 import Main from './Main';
+import RecipeDetails from './RecipeDetails';
 
 
 
@@ -26,7 +25,7 @@ class App extends Component {
         <EpicMenu links={links} logo={logo} />
         <FirstSection />
         <Main />
-
+        <RecipeDetails/>
 
       </>
 
